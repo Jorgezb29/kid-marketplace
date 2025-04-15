@@ -37,11 +37,11 @@ const Dashboard = () => {
   const empresasActivas = empresas.length;
   const ingresosSemanales = empresas.reduce((acc, empresa) => acc + empresa.ingreso, 0);
 
-  const ranking = [
-    { nombre: 'Carlos', ingresos: 5000 },
-    { nombre: 'Ana', ingresos: 4800 },
-    { nombre: 'Pedro', ingresos: 4500 },
-  ];
+  //const ranking = [
+    //{ nombre: 'Carlos', ingresos: 5000 },
+    //{ nombre: 'Ana', ingresos: 4800 },
+    //{ nombre: 'Pedro', ingresos: 4500 },
+  //];
 
   return (
     <div className="dashboard-container">
